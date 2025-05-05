@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\luizf\\.nuget\\packages\\": {}
+    "/Users/cauaceccaroni/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aula\\PrimeirProjeto\\PrimeirProjeto.csproj",
+      "projectUniqueName": "/Users/cauaceccaroni/coding/ccqsantos-frontend-projnewjeans/Aula_Web/PrimeirProjeto/PrimeirProjeto.csproj",
       "projectName": "PrimeirProjeto",
-      "projectPath": "D:\\Aula\\PrimeirProjeto\\PrimeirProjeto.csproj",
-      "packagesPath": "C:\\Users\\luizf\\.nuget\\packages\\",
-      "outputPath": "D:\\Aula\\PrimeirProjeto\\obj\\",
+      "projectPath": "/Users/cauaceccaroni/coding/ccqsantos-frontend-projnewjeans/Aula_Web/PrimeirProjeto/PrimeirProjeto.csproj",
+      "packagesPath": "/Users/cauaceccaroni/.nuget/packages/",
+      "outputPath": "/Users/cauaceccaroni/coding/ccqsantos-frontend-projnewjeans/Aula_Web/PrimeirProjeto/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\luizf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/cauaceccaroni/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
