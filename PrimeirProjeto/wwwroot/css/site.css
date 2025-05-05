@@ -1,0 +1,111 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+/*Página inicial, porque css é uma bosta*/
+
+.plantacao{
+  background-image: url(../assets/assets/plantacao.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo-recicla-bytes {
+  font-family: LeagueSpartan, sans-serif; 
+  font-weight: bold; 
+}
+
+.recicla {
+  color: #808080; 
+}
+
+.bytes {
+  color: #90EE90; 
+}
+
+/*Página de login*/
+.background_login{
+  background-image: url(../assets/assets/floresta_login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Container_login{
+  position: fixed;
+  top: 70px; 
+  right: 0;
+
+  padding: 20px;
+  border-radius: 10px;
+  width: 50vw; 
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.acessar-button {
+  background-color: #4dc3ff;
+  color: white; 
+  font-size: 18px; 
+  border: none; 
+  border-radius: 30px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+@font-face {
+  font-family: 'Montserrat Arabic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserratarabic/v11/feVVFelsN8h5zr4XC7kw-1F9UWzJzg.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+200F, U+202E, U+2E2B, U+FB50-FDFC, U+FE70-FEFF, U+06DD, U+06ED;
+}
+.Container_login_left{
+  position: fixed;
+  top: 190px; 
+  left: 20px;
+  width: 40vw; 
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  font-family: 'Montserrat Arabic', sans-serif;
+}
+.temos{
+  color: black;
+  font-size: 65px;
+  font-weight: bold;
+}
+.compromisso{
+  color: rgb(125, 240, 110);
+  font-size: 65px;
+  font-weight: bold;
+}
